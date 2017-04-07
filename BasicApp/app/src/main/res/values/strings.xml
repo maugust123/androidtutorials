@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BasicApp</string>
+    <string name="sign_in_Title">Sign In</string>
+    <string name="log_in_text">LOG IN</string>
+</resources>
