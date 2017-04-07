@@ -2,4 +2,12 @@
     <string name="app_name">BasicApp</string>
     <string name="sign_in_Title">Sign In</string>
     <string name="log_in_text">LOG IN</string>
+    <string name="javainterface">JavaInterface</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="morgans_text">morgans_text</string>
+    <string name="swiper">Swiper</string>
+
 </resources>

@@ -15,12 +15,12 @@
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearance"
         android:text="@string/sign_in_Title"
-        android:id="@+id/textView"
+        android:id="@+id/lbltitle"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:singleLine="true"
         android:layout_alignParentTop="true"
-        android:textSize="18sp" />
+        android:textSize="20sp" />
 
 
     <EditText
@@ -31,8 +31,8 @@
         android:layout_marginLeft="41dp"
         android:layout_marginStart="41dp"
         android:layout_marginTop="90dp"
-        android:id="@+id/editText"
-        android:layout_below="@+id/textView"
+        android:id="@+id/txtemail"
+        android:layout_below="@+id/lbltitle"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:width="320dp"/>
@@ -43,20 +43,41 @@
         android:inputType="textPassword"
         android:ems="10"
         android:layout_centerVertical="true"
-        android:layout_alignLeft="@+id/editText"
-        android:layout_alignStart="@+id/editText"
-        android:id="@+id/editText3"
+        android:layout_alignLeft="@+id/txtemail"
+        android:layout_alignStart="@+id/txtemail"
+        android:id="@+id/txtpassword"
         android:width="320dp"/>
+
+    <Button
+        android:text="@string/javainterface"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginStart="16dp"
+        android:id="@+id/btninterface"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
     <Button
         android:text="@string/log_in_text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/editText3"
-        android:layout_alignRight="@+id/editText3"
-        android:layout_alignEnd="@+id/editText3"
-        android:layout_marginRight="60dp"
-        android:layout_marginEnd="60dp"
-        android:layout_marginTop="78dp"
-        android:id="@+id/button" />
+        android:layout_marginTop="53dp"
+        android:id="@+id/btnlogin"
+        android:layout_below="@+id/txtpassword"
+        android:layout_toRightOf="@+id/btninterface"
+        android:layout_toEndOf="@+id/btninterface" />
+
+    <Button
+        android:text="@string/swiper"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/btninterface"
+        android:layout_toRightOf="@+id/btninterface"
+        android:layout_toEndOf="@+id/btninterface"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:id="@+id/btnswiper" />
+
 </RelativeLayout>
