@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools=".memecreator">
+
+    <group android:checkableBehavior="single" >
+        <item android:id="@+id/menu_main2activity" android:orderInCategory="1" app:showAsAction="never" android:title="@string/coded_layout"/>
+        <item android:id="@+id/menu_swiper" android:orderInCategory="2" app:showAsAction="never" android:title="@string/swiper"/>
+        <item android:id="@+id/menu_gridlayout" android:orderInCategory="3" app:showAsAction="never" android:title="@string/grid_layout"/>
+        <item android:id="@+id/menu_overflow" android:orderInCategory="3" app:showAsAction="never" android:title="@string/overflow_menue"/>
+        <item android:id="@+id/menu_animation" android:orderInCategory="3" app:showAsAction="never" android:title="@string/animation"/>
+        <item android:id="@+id/menu_threads" android:orderInCategory="4" app:showAsAction="never" android:title="@string/threads"/>
+        <item android:id="@+id/menu_boundService" android:orderInCategory="4" app:showAsAction="never" android:title="BoundService"/>
+    </group>
+
+</menu>

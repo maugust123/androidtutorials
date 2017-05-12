@@ -9,5 +9,20 @@
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="morgans_text">morgans_text</string>
     <string name="swiper">Swiper</string>
+    <string name="click_me_bro">Click Me Bro</string>
+    <string name="top_text">Top</string>
+    <string name="bottom_text">Bottom</string>
+    <string name="red_string">Red String</string>
+    <string name="green_string">Green String</string>
+    <string name="yellow_string">Yellow String</string>
+    <string name="coded_layout">Coded Layout</string>
+    <string name="meme_creator">Meme Creator</string>
+    <string name="grid_layout">Grid Layout</string>
+    <string name="overflow_menue">Overflow Menue</string>
+    <string name="back">Back</string>
+    <string name="animation">Animation</string>
+    <string name="click_me_baby">Click Me Baby</string>
+    <string name="hello">Hello</string>
+    <string name="threads">Threads</string>
 
 </resources>

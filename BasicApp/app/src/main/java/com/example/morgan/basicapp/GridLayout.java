@@ -20,7 +20,7 @@ public class GridLayout extends AppCompatActivity {
                 new Button.OnClickListener(){
                     public void onClick(View v){
                         //setContentView(R.layout.activity_main);
-                        GridLayout.this.startActivity(new Intent(GridLayout.this,MainActivity.class));
+                        GridLayout.this.startActivity(new Intent(GridLayout.this,memecreator.class));
                     }
                 }
         );

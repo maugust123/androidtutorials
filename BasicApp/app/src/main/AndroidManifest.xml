@@ -32,7 +32,22 @@
         </activity>
         <activity android:name=".GridLayout" />
         <activity android:name=".Swiper" />
-        <activity android:name=".memecreator"></activity>
+        <activity android:name=".memecreator" />
+        <activity android:name=".OverflowMenu" />
+        <activity android:name=".Animation" />
+        <activity android:name=".Threadds" />
+
+        <service android:name=".AndroidService" />
+        <service
+            android:name=".MyService"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name=".BoundService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".BoundActivity"></activity>
     </application>
 
 </manifest>

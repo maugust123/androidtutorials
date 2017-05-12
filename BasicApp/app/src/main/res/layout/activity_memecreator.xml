@@ -10,4 +10,25 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.morgan.basicapp.memecreator">
 
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:name="com.example.morgan.basicapp.TopSectionFragment"
+        android:layout_marginTop="15dp"
+        android:id="@+id/fragment"
+        tools:layout="@layout/top_section_fragment"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="320dp"
+        android:name="com.example.morgan.basicapp.BottomPictureFragment"
+        android:layout_below="@+id/fragment"
+        android:layout_marginTop="15dp"
+        android:id="@+id/fragment2"
+        tools:layout="@layout/bottom_picture_fragment"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
 </RelativeLayout>

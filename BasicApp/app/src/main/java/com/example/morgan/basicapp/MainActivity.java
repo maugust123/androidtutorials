@@ -14,19 +14,25 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        Intent intent = new Intent(this, AndroidService.class);
+        startService(intent);//This starts the Intent service called AndroidService
 
-        final Button nav = (Button) findViewById(R.id.btninterface);
-        nav.setOnClickListener(
+        Intent i = new Intent(this, MyService.class);
+        startService(i);
+
+
+        final Button login = (Button) findViewById(R.id.btnlogin);
+        login.setOnClickListener(
                 new Button.OnClickListener() {
                     @Override
                     public void onClick(View v) {
                         //setContentView(R.layout.activity_grid_layout);
-                        MainActivity.this.startActivity(new Intent(MainActivity.this, GridLayout.class));
+                        MainActivity.this.startActivity(new Intent(MainActivity.this, memecreator.class));
                     }
                 }
         );
 
-        nav.setOnLongClickListener(
+        login.setOnLongClickListener(
                 new Button.OnLongClickListener() {
                     @Override
                     public boolean onLongClick(View view) {
@@ -38,16 +44,40 @@ public class MainActivity extends AppCompatActivity {
                 }
         );
 
-        Button swiper = (Button) findViewById(R.id.btnswiper);
+//        Button swiper = (Button) findViewById(R.id.btnswiper);
+//
+//        swiper.setOnClickListener(
+//                new Button.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        //setContentView(R.layout.activity_swiper);
+//                        MainActivity.this.startActivity(new Intent(MainActivity.this, Swiper.class));
+//                    }
+//                }
+//        );
 
-        swiper.setOnClickListener(
-                new Button.OnClickListener() {
-                    @Override
-                    public void onClick(View v) {
-                        //setContentView(R.layout.activity_swiper);
-                        MainActivity.this.startActivity(new Intent(MainActivity.this, Swiper.class));
-                    }
-                }
-        );
+//        Button fragment = (Button) findViewById(R.id.btnfragmentstrigar);
+//
+//        fragment.setOnClickListener(
+//                new Button.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        //setContentView(R.layout.activity_swiper);
+//                        MainActivity.this.startActivity(new Intent(MainActivity.this, memecreator.class));
+//                    }
+//                }
+//        );
+//
+//        Button menu = (Button) findViewById(R.id.btnoverflowmenu);
+//
+//        menu.setOnClickListener(
+//                new Button.OnClickListener() {
+//                    @Override
+//                    public void onClick(View v) {
+//                        //setContentView(R.layout.activity_swiper);
+//                        MainActivity.this.startActivity(new Intent(MainActivity.this, OverflowMenu.class));
+//                    }
+//                }
+//        );
     }
 }
